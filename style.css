@@ -1,0 +1,164 @@
+img {width: 70px}
+
+box1{
+  display: flex;
+  justify-content:  space-between;
+  font-size: 30px;
+}
+
+box2{
+  display: flex;
+  flex-direction: column;
+}
+
+box3{
+  display: flex;
+  justify-content: center;
+  border-color: lightgray;
+  padding: 150px
+}
+
+box4{
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+
+}
+
+box5{
+  display: flex;
+  flex-wrap: wrap;
+  resize: both;
+  overflow: auto;
+  justify-content: center;
+  background-color: lightskyblue;
+}
+
+box6{
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+ }
+
+.E5 {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.E2{
+  background-color: lightyellow;
+}
+
+.E3{
+  background-color: lightyellow;
+  flex: 0 1 150px;
+  margin: 5px;
+}
+
+
+.E4-1{
+  background-color: lightyellow;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+
+}
+
+.E4-2{
+  background-color: lightpink;
+}
+
+.E5-1{
+  background-color: lightyellow;
+}
+
+.E5-2{
+  background-color: lightsalmon;
+}
+
+.E5-3{
+  background-color: lightpink;
+}
+
+.E6{
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  background-color: lightskyblue;
+}
+
+.E6-1{
+  background-color: lightpink;
+  grid-column: 1 / 4;
+}
+
+.E6-2{
+  background-color: lightblue;
+}
+
+.E6-3{
+  background-color: lightsalmon;
+}
+
+.E6-4{
+  background-color: lightyellow;
+}
+
+
+.E6-5{
+  background-color: lightgreen;
+  grid-column: 1 / 4;
+}
+
+.E7{
+  resize: both;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.E7-1{
+  background-color: lightpink;
+}
+
+.E7-2{
+  background-color: lightblue;
+}
+
+.E7-3{
+  background-color: lightsalmon;
+}
+
+.E7-4{
+  background-color:lightyellow;
+}
+
+
+.E8{
+  resize: both;
+  overflow: auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  padding: 1em;
+  border: 1px solid blue;
+}
+
+.E8-1{
+  background-color: lightpink;
+}
+
+.E8-2{
+  background-color: lightblue;
+}
+
+.E8-3{
+  background-color: lightsalmon;
+}
+
+
+.E8-4{
+  background-color: lightyellow;
+}
